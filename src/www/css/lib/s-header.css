@@ -1,0 +1,14 @@
+#header {overflow: hidden; height: 114px; width: 960px; margin: 0 auto; text-align: left;}
+.ready #header {height: 30px;}
+	
+#header .servicenavigation {float: right; background: transparent url(/img/bg_servicenavigation.png) repeat-x top left; padding: 0 12px; height: 30px;}
+#header .servicenavigation li {float: left;}
+#header .servicenavigation li a {padding: 7px 18px; display: block; font-size: 12px; color: #ffffff; text-transform: uppercase; text-decoration: none;
+	letter-spacing: 1px;
+	font-family:'HelveticaNeueW01-77BdCn 692722', Helvetica, Arial, sans-serif;
+}
+#header .servicenavigation li a:hover {color: #c7c8ca;}
+
+.contact #header .servicenavigation li.contact a,
+.jobs #header .servicenavigation li.jobs a,
+.login #header .servicenavigation li.login a {color: #c7c8ca;}

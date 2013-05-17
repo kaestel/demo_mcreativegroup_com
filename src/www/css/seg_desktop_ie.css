@@ -1,0 +1,295 @@
+
+/*s-page.css*/
+* {font-family: "Helvetica W01 Light", Helvetica, Arial, sans-serif; font-weight: 100; font-stretch: normal; color: #000000;}
+html {height: 100%;}
+body {background: #ffffff url(/img/bg_content.png) repeat-x 0 114px; margin: 0; height: 100%;}
+h1, h2, h3, h4, h5, h6, p, ul, li, dl, dd, dt, address {padding: 0; margin: 0; font-weight: normal;}
+a {text-decoration: underline; color: #a71c20; cursor: pointer;}
+a:hover {color: #000000;}
+img {border: 0; display: block;}
+ul {list-style: none;}
+form, fieldset, label, input, select, textarea {padding: 0; margin: 0; font-weight: normal;}
+input, select, textarea {font-size: 14px;}
+input {outline: none;}
+h1 {font-size: 38px; line-height: 46px; color: #a71c20;}
+h2 {font-size: 24px; line-height: 30px; color: #787879;}
+h3 {font-size: 14px; line-height: 20px;}
+h4 {font-size: 14px;}
+p {font-size: 14px; line-height: 20px;}
+#page {position: relative; min-height: 100%; text-align: center; overflow: hidden;}
+.c {overflow: hidden; clear: both;}
+.c400, .c300, .c266, .c200, .c150, .c133, .c100, .c75, .c50 {float: left; overflow: hidden; min-height: 10px;}
+.c400 {width: 960px;}
+.c300 {width: 720px;}
+.c266 {width: 640px;}
+.c200 {width: 480px;}
+.c150 {width: 360px;}
+.c133 {width: 320px;}
+.c100 {width: 240px;}
+.c75 {width: 180px;}
+.c50 {width: 120px;}
+.nofollow {display: none !important;}
+
+
+/*s-header.css*/
+#header {overflow: hidden; height: 114px; width: 960px; margin: 0 auto; text-align: left;}
+.ready #header {height: 30px;}
+#header .servicenavigation {float: right; background: transparent url(/img/bg_servicenavigation.png) repeat-x top left; padding: 0 12px; height: 30px;}
+#header .servicenavigation li {float: left;}
+#header .servicenavigation li a {padding: 7px 18px; display: block; font-size: 12px; color: #ffffff; text-transform: uppercase; text-decoration: none;
+	letter-spacing: 1px;
+	font-family:'HelveticaNeueW01-77BdCn 692722', Helvetica, Arial, sans-serif;
+}
+#header .servicenavigation li a:hover {color: #c7c8ca;}
+.contact #header .servicenavigation li.contact a,
+.jobs #header .servicenavigation li.jobs a,
+.login #header .servicenavigation li.login a {color: #c7c8ca;}
+
+
+/*s-navigation.css*/
+#navigation {height: 84px; width: 960px; margin: 0 auto; text-align: left;}
+#navigation .logo {float: left; width: 200px; height: 84px; background: transparent url(/img/logo.png) no-repeat 53px 3px; cursor: pointer;}
+#navigation ul {float: left; overflow: hidden; padding: 10px 0 0; list-style: none;}
+#navigation ul li {float: left;}
+#navigation ul li a {text-decoration: none; color: #333333; display: block; padding: 10px 12px;}
+#navigation ul li a:hover {color: #a71c20;}
+#navigation ul li.front {display: none;}
+.front #navigation .front a,
+.work #navigation .work a,
+.clients #navigation .clients a,
+.services #navigation .services a,
+.people #navigation .people a,
+.blog #navigation .blog a {color: #a71c20;}
+
+/*s-footer.css*/
+#footer {overflow: hidden; height: 300px; width: 960px; text-align: left; margin: 0 auto; clear: left; background: transparent url(/img/bg_footer.png) no-repeat 60px 110px;}
+#footer .servicenavigation {display: none;}
+#footer .corp {display: none;}
+
+/*s-content.css*/
+#content {width: 870px; min-height: 300px; margin: 0 auto; text-align: left; padding: 0 30px 0 60px;}
+#content .intro {padding: 40px 0 0; height: 112px;}
+.work #content {overflow: hidden;}
+.work #content .intro {padding-bottom: 30px;}
+.work #content .casecont {width: 896px;}
+.work #content .cases {margin: 0 -4px;}
+.work #content .cases li {float: left; width: 189px; border: 4px solid #ffffff; margin: 0 29px 11px 0px;}
+.work #content .cases li.selected,
+.work #content .cases li:hover {float: left; width: 189px; border: 4px solid #9e150d;}
+.work #content .cases li dl {background: #020101; overflow: hidden; height: 27px; padding: 3px 10px;}
+.work #content .cases li dt.client,
+.work #content .cases li dt.project {float: left; padding: 0 3px 0 0; width: 45px; color: #8a8a8a; font-size: 10px; text-transform: uppercase; line-height: 12px;
+	font-family:'HelveticaNeueW01-77BdCn 692722', Helvetica, Arial, sans-serif;
+}
+.work #content .cases li dd.client,
+.work #content .cases li dd.project {float: left; padding: 0; width: 120px; color: #a7a6a6; font-size: 10px; line-height: 13px;
+	font-family:'HelveticaNeueW01-77BdCn 692722', Helvetica, Arial, sans-serif;
+}
+.work #content .cases li .logo {display: none;}
+.work #content .cases li .description {display: none;}
+.work #content .cases li .movie {display: none;}
+.work #content .case {height: 428px; padding: 0 0 30px; overflow: hidden;}
+.work #content .case dl {width: 189px; padding: 0px 40px 0 0; float: left;}
+.work #content .case dd.logo {padding: 0 0 25px; text-align: center; font-size: 0;}
+.work #content .case dd.logo img {display: inline;}
+.work #content .case dt.description {padding: 0 0 15px;
+	font-family:'HelveticaNeueW01-77BdCn 692722', Helvetica, Arial, sans-serif;
+}
+.work #content .case dd.description p {padding: 0 0 20px;}
+.work #content .case .movie {float: left; width: 640px;}
+.work #content .case .movie .normal {width: 640px; height: 360px; display: block; padding: 0 0 10px; background-color: transparent; background-repeat: no-repeat; background-position: top left; text-indent: -1000px; cursor: default;}
+.work #content .case .movie {position: relative;}
+.work #content .case a.play {position: absolute; left: 50%; top: 50%; margin-left: -49px; margin-top: -67px; width: 98px; height: 98px; background: transparent url(/img/bg_play.png) no-repeat top center;}
+.work #content .case .movie .normal .player video {width: 640px; height: 360px; background-color: black; display: block; position: absolute; left: 0; top: 0;}
+.work #content .case .movie .normal .player object {width: 640px; height: 360px; background-color: black; display: block; position: absolute; left: 0; top: 0;}
+.work #content .case .movie .normal .player .playpause {position: absolute; left: 50%; top: 50%; margin-left: -49px; margin-top: -67px; width: 98px; height: 98px; background: transparent url(/img/bg_bn_play.png) no-repeat 0 0;}
+.work #content .case .movie .normal .player.playing .playpause {background-position: 0 -100px;}
+.work #content .case .movie .small {display: none;}
+.work #content .case .movie .large {float: right; display: block; padding: 9px 16px; background: transparent url(/img/bg_bn.png) repeat-x top left; color: #ffffff; font-size: 10px; text-transform: uppercase; text-decoration: none; letter-spacing: 1px;
+  font-family:'HelveticaNeueW01-77BdCn 692722', Helvetica, Arial, sans-serif;
+}
+.work #content .case .thumbnail {display: none;}
+.work #content .case .client {display: none;}
+.work #content .case .project {display: none;}
+.work #content .case dt.logo {display: none;}
+.fullscreen {height: 100%; width: 100%; background-color: rgba(0, 0, 0, 0.7); background-repeat: no-repeat; background-position: center 144px;
+	position: absolute; top: 0; left: 0;
+}
+.fullscreen .play {position: absolute; left: 50%; top: 370px; margin-left: -49px; width: 98px; height: 98px; background: transparent url(/img/bg_play.png) no-repeat top center;}
+.fullscreen .close {cursor: pointer; background: transparent url(/img/bg_bn_close.png) no-repeat center center; height: 50px; width: 50px;
+	position: absolute; top: 104px; left: 50%; margin-left: 419px;
+}
+.fullscreen .player .controls {width: 960px; height: 540px; position: absolute; left: 50%; top: 144px; margin-left: -480px;}
+.fullscreen .player video {width: 960px; height: 540px; background-color: black; display: block; position: absolute; left: 50%; top: 144px; margin-left: -480px;}
+.fullscreen .player object {width: 960px; height: 540px; background-color: black; display: block; position: absolute; left: 50%; top: 144px; margin-left: -480px;}
+.fullscreen .player .playpause {position: absolute; left: 50%; top: 225px; margin-left: -49px; width: 98px; height: 98px; background: transparent url(/img/bg_bn_play.png) no-repeat 0 0;}
+.fullscreen .player.playing .playpause {background-position: 0 -100px;}
+.services #content .intro {padding-bottom: 60px;}
+.services #content p {font-size: 24px; line-height: 30px; padding: 0 0 35px;}
+.services #content .service {float: left; width: 245px; padding: 0 0 0 65px;}
+.services #content .strategic {padding-left: 0;}
+.services #content .service h3 {text-transform: uppercase; padding: 0 0 15px;
+	font-family:'HelveticaNeueW01-77BdCn 692722', Helvetica, Arial, sans-serif;
+}
+.services #content .service li a {font-size: 14px;}
+.people #content .intro {padding-bottom: 60px;}
+.people #content p {font-size: 24px; line-height: 30px; padding: 0 0 35px;}
+.people #content .group {overflow: hidden;}
+.people #content .group li {display: block; padding: 0 0 15px; overflow: hidden;}
+.people #content .group li .vcard {overflow: hidden; padding: 0 0 4px; font-style: normal;}
+.people #content .group li img {padding: 0 0 3px; float: left;}
+.people #content .group li .name,
+.people #content .group li .role {padding: 0 0 0 20px; float: left; width: 616px;}
+.people #content .group li .name {font-weight: bold;}
+.people #content .group li .role {padding: 0 0 20px 20px;}
+.people #content .group li .tel,
+.people #content .group li .email,
+.people #content .group li .org {display: none;}
+.people #content .group li img {}
+.people #content .group li .description {padding: 0 0 0 20px; float: left; width: 626px;}
+.people #content .group li p {font-size: 16px; line-height: 20px; padding: 0 0 10px;}
+.clients #content .intro {padding-bottom: 30px;}
+.clients #content p {font-size: 24px; line-height: 30px; padding: 0 0 35px;}
+.clients #content ul {overflow: hidden;
+	background: transparent url(/img/bg_logos.jpg) no-repeat -20px 0; height: 870px; height: 651px;
+}
+.clients #content ul li {float: left; width: 189px; height: 189px; margin: 0 0 15px 35px; overflow: hidden; background-position: center center; background-repeat: no-repeat; background-color: transparent;
+	display: none;
+}
+.clients #content ul li:nth-child(4n-3) {margin-left: 0;}
+.clients #content ul li a {text-indent: -1000px; display: block; height: 189px;}
+.contact #content .intro {padding-bottom: 60px;}
+.contact #content p {font-size: 24px; line-height: 30px; padding: 0 0 35px;}
+.contact #content address {font-style: normal; padding: 0 0 50px; border-bottom: 1px solid #cbcbcb;}
+.contact #content address .name {display: none;}
+.contact #content address .email,
+.contact #content address .tel {overflow: hidden; padding: 0 0 1px;}
+.contact #content address .email span,
+.contact #content address .tel span {text-transform: uppercase; font-size: 14px; display: block; float: left; width: 120px; padding: 10px 0 0;
+	font-family: 'HelveticaNeueW01-77BdCn 692722', Helvetica, Arial, sans-serif;
+}
+.contact #content address .email a,
+.contact #content address .tel a {text-transform: lowercase; padding-top: 8px; font-size: 16px; display: block; float: left; text-decoration: none; color: #000000;}
+.contact #content address .name span {display: none;}
+.contact #content .offices {overflow: hidden; padding: 50px 0 0;}
+.contact #content .offices address {float: left; width: 260px; border: none; padding: 0 30px 0 0;}
+.contact #content .offices address .name {display: block; padding: 0 0 15px; text-transform: uppercase;
+	font-family: 'HelveticaNeueW01-77BdCn 692722', Helvetica, Arial, sans-serif;
+}
+.contact #content .offices address .street-address {padding: 0 0 5px;}
+.contact #content .offices address .country-name {display: none;}
+.jobs #content .intro {padding-bottom: 60px;}
+.jobs #content p {font-size: 24px; line-height: 30px; padding: 0 0 35px;}
+.jobs #content p.sub_intro {font-size: 16px; line-height: 20px; font-weight: normal; padding: 0 0 35px;}
+.jobs #content .list li {border-top: 1px solid #cbcbcb; padding-top: 30px;}
+.jobs #content .info .published {font-size: 8px; line-height: 21px; text-transform: uppercase; color: #333333;}
+.jobs #content .article p {line-height: 21px; color: #333333; padding-bottom: 30px; font-size: 14px;}
+.jobs #content .article h2 {color: #a71c20; padding-bottom: 20px;}
+.jobs #content ul.tools {display: block; overflow: hidden; margin-bottom: 35px;}
+.jobs #content ul.tools li {float: left; text-indent: -9999px; padding: 0 5px 0 0; border: none; margin: 0;}
+.jobs #content ul.tools li a {background: transparent url(/img/bg_blog_icons.png) no-repeat 0px 0px; width: 27px; height: 27px; display: block; overflow: hidden;}
+.jobs #content .tools li.twitter a {background-position: 0 -50px;}
+.jobs #content .tools li.google a {background-position: 0 -100px; width: 41px;}
+.jobs #content .tools li.linkedin a {background-position: 0 -150px;}
+
+
+/*s-front.css*/
+body.front {background: #ffffff;}
+.front #content {width: 100%; text-align: center; background: transparent url(/img/bg_cases.png) repeat-x 0 30px; padding: 0; margin: 0;}
+.front #content .cases {width: 960px; height: 570px; margin: 0 auto; text-align: left; overflow: hidden; position: relative;}
+.front #content .cases .imagelist {width: 4800px; height: 540px; overflow: hidden;
+	-webkit-transform: translate3d(0,0,0);
+	-moz-user-select: -moz-none;
+	-webkit-user-select: none;
+}
+.front #content .cases .imagelist li {float: left; width: 960px; height: 540px; position: relative; background-repeat: no-repeat;
+	-webkit-transform: translate3d(0,0,0);
+}
+.front #content .cases .imagelist li a {position: absolute; left: 60px; bottom: 0; z-index: 25;
+	display: none;
+}
+.front #content .cases .nav {position: absolute; top: 442px; right: 0; background: #000000; padding: 0 24px; opacity: 0.7; z-index: 20;}
+.front #content .cases .nav li {float: left; width: 14px; height: 30px; background: transparent url(/img/bg_imagelist_nav.png) no-repeat 1px 10px; cursor: pointer;}
+.front #content .cases .nav li:hover,
+.front #content .cases .nav li.selected {background-position: -13px 10px;}
+.front #content .cases .nav li a {display: none;}
+.front #content .cases .actions {position: absolute; left: 0; top: 531px; width: 933px; height: 39px; padding: 9px 27px 0 0; text-align: right; background: transparent url(/img/bg_cases_actions.png) repeat-x top left; z-index: 20;}
+.front #content .cases .more {display: block; color: #7c7c7c; font-size: 12px; padding: 9px 24px 7px 0; background: transparent url(/img/bg_buttons.png) no-repeat 100% -75px; text-decoration: none; text-transform: uppercase;
+	font-family:'HelveticaNeueW01-77BdCn 692722', Helvetica, Arial, sans-serif;
+}
+.front #content .cases .more:hover {background-position: 100% -115px; color: #b2b2b3;}
+.front #content .cases .recompile {position: absolute; top: 0; left: 0; width: 960px; height: 540px; z-index: 10;}
+.front #content .cases .logo {position: absolute; left: 56px; bottom: 30px; padding: 9px 4px 0; background: transparent url(/img/bg_cases_logo.png) no-repeat top left; z-index: 21;}
+.front #content .cases .logo img {width: 239px; height: 97px; opacity: 0;}
+.front #content #maincontent {width: 870px; margin: 0 auto; text-align: left; overflow: hidden; padding: 60px 30px 60px 60px;}
+.front #content #maincontent .intro {float: left; width: 600px; padding: 0 60px 0 0; height: auto;}
+.front #content #maincontent .intro h1 {}
+.front #content #maincontent .intro h2,
+.front #content #maincontent .intro p {color: #333333; font-size: 24px; padding: 0 0 20px; line-height: 30px;}
+.front #content #maincontent .twitter {float: left; width: 210px;}
+.front #content #maincontent .twitter h3 {text-transform: uppercase; padding: 0 0 20px;
+	font-family:'HelveticaNeueW01-77BdCn 692722', Helvetica, Arial, sans-serif;
+}
+.front #content #maincontent .twitter .tweet {padding: 0 0 15px;}
+.front #content #maincontent .twitter .follow {text-transform: uppercase; font-size: 12px;
+	font-family:'HelveticaNeueW01-77BdCn 692722', Helvetica, Arial, sans-serif;
+}
+.front #content .blogs {background: #a71c20; padding: 60px 0;}
+.front #content .blogs h3 {width: 870px; margin: 0 auto; text-align: left; padding: 0 30px 20px 60px; overflow: hidden; color: #ffffff; text-transform: uppercase;
+	font-family:'HelveticaNeueW01-77BdCn 692722', Helvetica, Arial, sans-serif;
+}
+.front #content .blogs ul {width: 870px; margin: 0 auto; text-align: left; padding: 0 30px 0 60px; overflow: hidden;}
+.front #content .blogs ul li {float: left; width: 210px; padding: 0 0 0 120px;}
+.front #content .blogs ul li:first-child {padding: 0;}
+.front #content .blogs ul li img {padding: 0 0 20px;}
+.front #content .blogs ul li .article {height: 90px; overflow: hidden;}
+.front #content .blogs ul li h2 {font-size: 14px; padding: 0 0 10px; color: #d1d3d4; line-height: 16px;}
+.front #content .blogs ul li p {font-size: 12px; padding: 0 0 10px; color: #d1d3d4; line-height: 14px;}
+.front #content .blogs .actions {text-align: right;}
+.front #content .blogs .actions .readmore {display: block; color: #b2b2b3; font-size: 12px; padding: 9px 24px 7px 0; background: transparent url(/img/bg_buttons.png) no-repeat 100% 5px; text-decoration: none; text-transform: uppercase;
+	font-family:'HelveticaNeueW01-77BdCn 692722', Helvetica, Arial, sans-serif;
+}
+.front #content .blogs li .actions .readmore:hover {background-position: 100% -35px; color: #d1d3d4;}
+
+/*s-login.css*/
+.login #content {width: 100%; text-align: center; padding: 0; margin: 0; background: transparent url(/img/bg_login.png) repeat-x 0 152px;}
+.login #content .intro {width: 870px; margin: 0 auto; text-align: left; padding: 40px 30px 0 60px;}
+.login #content form {width: 870px; margin: 0 auto; text-align: left; padding: 120px 30px 0 60px; height: 284px;}
+.login #content form fieldset {border: 0;}
+.login #content form .field {overflow: hidden; padding: 0 0 15px 200px;}
+.login #content form label {float: left; width: 85px; padding: 9px 15px 0 0; text-align: right; text-transform: uppercase; font-size: 14px; font-weight: normal;
+	font-family:'HelveticaNeueW01-77BdCn 692722', Helvetica, Arial, sans-serif;
+}
+.login #content form input {float: left; width: 290px; font-size: 16px; height: 28px;}
+.login #content form input.submit {width: auto; height: 30px; padding: 9px 16px; background: transparent url(/img/bg_bn.png) repeat-x top left; color: #ffffff; font-size: 10px; text-transform: uppercase; border: 0; margin: 0 0 0 532px;
+	font-family:'HelveticaNeueW01-77BdCn 692722', Helvetica, Arial, sans-serif;
+}
+
+/*s-temp.css*/
+.blog #content {padding-right: 0px; width: 900px;}
+.blog #content .intro {padding-bottom: 30px;}
+.blog #content .blogs {width: 640px; display: inline-block;}
+.blog #content .blogs p {line-height: 21px; color: #333333; padding-bottom: 30px;}
+.blog #content .blogs p span.italicbold {font-weight: bold; font-style: italic;}
+.blog #content .blogs p span.bold {font-weight: bold;}
+.blog #content .blogs p span.italic,
+.blog #content .blogs p a.italic {font-style: italic;}
+.blog #content .blogs h2 {color: #a71c20; padding-bottom: 20px;}
+.blog #content .info .published {font-size: 8px; line-height: 21px; text-transform: uppercase; color: #333333;}
+.blog #content .blogs .movie,
+.blog #content .blogs .image {padding-bottom: 28px;}
+.blog #content .blogs ul li {border-bottom: 1px solid #cbcbcb; margin-bottom: 75px;}
+.blog #content .subnavigation {padding-left: 50px; width: 205px; display: inline-block; vertical-align: top;}
+.blog #content .subnavigation h3 {font-weight: bold; text-transform: uppercase; line-height: 21px;}
+.blog #content .subnavigation .posts {padding-bottom: 48px;}
+.blog #content .subnavigation ul li a {line-height: 21px;}
+.blog #content ul.tools {display: block; overflow: hidden; margin-bottom: 35px;}
+.blog #content ul.tools li {float: left; text-indent: -9999px; padding: 0 5px 0 0; border: none; margin: 0;}
+.blog #content ul.tools li a {background: transparent url(/img/bg_blog_icons.png) no-repeat 0px 0px; width: 27px; height: 27px; display: block; overflow: hidden;}
+.blog #content .tools li.twitter a {background-position: 0 -50px;}
+.blog #content .tools li.google a {background-position: 0 -100px; width: 41px;}
+.blog #content .tools li.linkedin a {background-position: 0 -150px;}
+.link {cursor: pointer;}
+
+/*s-desktop_ie.css*/
+

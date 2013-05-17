@@ -1,0 +1,38 @@
+* {font-family: "Helvetica W01 Light", Helvetica, Arial, sans-serif; font-weight: 100; font-stretch: normal; color: #000000;}
+
+html {height: 100%;}
+body {background: #ffffff url(/img/bg_content.png) repeat-x 0 114px; margin: 0; height: 100%;}
+
+/* BASE */
+h1, h2, h3, h4, h5, h6, p, ul, li, dl, dd, dt, address {padding: 0; margin: 0; font-weight: normal;}
+a {text-decoration: underline; color: #a71c20; cursor: pointer;}
+a:hover {color: #000000;}
+img {border: 0; display: block;}
+ul {list-style: none;}
+
+form, fieldset, label, input, select, textarea {padding: 0; margin: 0; font-weight: normal;}
+input, select, textarea {font-size: 14px;}
+input {outline: none;}
+
+h1 {font-size: 38px; line-height: 46px; color: #a71c20;}
+h2 {font-size: 24px; line-height: 30px; color: #787879;}
+h3 {font-size: 14px; line-height: 20px;}
+h4 {font-size: 14px;}
+p {font-size: 14px; line-height: 20px;}
+
+#page {position: relative; min-height: 100%; text-align: center; overflow: hidden;}
+
+/* BASIC CONTENT BLOCKS */
+.c {overflow: hidden; clear: both;}
+.c400, .c300, .c266, .c200, .c150, .c133, .c100, .c75, .c50 {float: left; overflow: hidden; min-height: 10px;}
+.c400 {width: 960px;}
+.c300 {width: 720px;}
+.c266 {width: 640px;}
+.c200 {width: 480px;}
+.c150 {width: 360px;}
+.c133 {width: 320px;}
+.c100 {width: 240px;}
+.c75 {width: 180px;}
+.c50 {width: 120px;}
+
+.nofollow {display: none !important;}

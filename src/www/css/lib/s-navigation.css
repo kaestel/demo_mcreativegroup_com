@@ -1,0 +1,16 @@
+#navigation {height: 84px; width: 960px; margin: 0 auto; text-align: left;}
+#navigation .logo {float: left; width: 200px; height: 84px; background: transparent url(/img/logo.png) no-repeat 53px 3px; cursor: pointer;}
+#navigation ul {float: left; overflow: hidden; padding: 10px 0 0; list-style: none;}
+
+#navigation ul li {float: left;}
+#navigation ul li a {text-decoration: none; color: #333333; display: block; padding: 10px 12px;}
+#navigation ul li a:hover {color: #a71c20;}
+
+#navigation ul li.front {display: none;}
+
+.front #navigation .front a,
+.work #navigation .work a,
+.clients #navigation .clients a,
+.services #navigation .services a,
+.people #navigation .people a,
+.blog #navigation .blog a {color: #a71c20;}

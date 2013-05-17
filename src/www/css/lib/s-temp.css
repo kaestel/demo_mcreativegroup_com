@@ -1,0 +1,31 @@
+.blog #content {padding-right: 0px; width: 900px;}
+
+
+.blog #content .intro {padding-bottom: 30px;}
+.blog #content .blogs {width: 640px; display: inline-block;}
+.blog #content .blogs p {line-height: 21px; color: #333333; padding-bottom: 30px;}
+.blog #content .blogs p span.italicbold {font-weight: bold; font-style: italic;}
+.blog #content .blogs p span.bold {font-weight: bold;}
+.blog #content .blogs p span.italic,
+.blog #content .blogs p a.italic {font-style: italic;}
+.blog #content .blogs h2 {color: #a71c20; padding-bottom: 20px;}
+.blog #content .info .published {font-size: 8px; line-height: 21px; text-transform: uppercase; color: #333333;}
+.blog #content .blogs .movie,
+.blog #content .blogs .image {padding-bottom: 28px;}
+.blog #content .blogs ul li {border-bottom: 1px solid #cbcbcb; margin-bottom: 75px;}
+
+.blog #content .subnavigation {padding-left: 50px; width: 205px; display: inline-block; vertical-align: top;}
+.blog #content .subnavigation h3 {font-weight: bold; text-transform: uppercase; line-height: 21px;}
+.blog #content .subnavigation .posts {padding-bottom: 48px;}
+.blog #content .subnavigation ul li a {line-height: 21px;}
+
+.blog #content ul.tools {display: block; overflow: hidden; margin-bottom: 35px;}
+.blog #content ul.tools li {float: left; text-indent: -9999px; padding: 0 5px 0 0; border: none; margin: 0;}
+.blog #content ul.tools li a {background: transparent url(/img/bg_blog_icons.png) no-repeat 0px 0px; width: 27px; height: 27px; display: block; overflow: hidden;}
+
+.blog #content .tools li.twitter a {background-position: 0 -50px;}
+.blog #content .tools li.google a {background-position: 0 -100px; width: 41px;}
+.blog #content .tools li.linkedin a {background-position: 0 -150px;}
+
+
+.link {cursor: pointer;}
