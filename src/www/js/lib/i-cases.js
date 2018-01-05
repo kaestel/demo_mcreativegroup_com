@@ -65,7 +65,7 @@ Util.Objects["cases"] = new function() {
 						// put player into place
 						this.view.page.player = this.view.normal.appendChild(this.view.page.player);
 						// load and play
-						this.view.page.player.loadAndPlay("/movies/" + this.view.item_id + "/video_640x360.mov");
+						this.view.page.player.loadAndPlay("/videos/" + this.view.item_id + "/640x360.mov");
 
 
 //						this.view.page.player = this.view.normal.appendChild(this.view.page.player);
@@ -93,10 +93,10 @@ Util.Objects["cases"] = new function() {
 								this.view.page.player.eject();
 
 								this.view.page.player = this.view.large.fullscreen.appendChild(this.view.page.player);
-								this.view.page.player.loadAndPlay("/movies/" + this.view.item_id + "/video_960x540.mov");
+								this.view.page.player.loadAndPlay("/videos/" + this.view.item_id + "/960x540.mov");
 							}
 					
-							this.fullscreen.style.backgroundImage = "url(/images/"+this.view.item_id+"/960x.jpg)";
+							this.fullscreen.style.backgroundImage = "url(/images/1/960x.jpg)";
 					
 							var close = u.ae(this.fullscreen, "div", "close");
 							u.e.click(close);
@@ -118,7 +118,7 @@ Util.Objects["cases"] = new function() {
 						u.a.transition(this, "all 0.5s ease-in");
 						u.a.setOpacity(this, 1);
 					}
-					u.i.load(this, "/images/"+this.item_id+"/640x.jpg");
+					u.i.load(this, "/images/1/640x.jpg");
 
 				}
 

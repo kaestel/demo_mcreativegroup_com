@@ -1,6 +1,6 @@
 
 /*s-page.css*/
-* {font-family: "Helvetica W01 Light", Helvetica, Arial, sans-serif; font-weight: 100; font-stretch: normal; color: #000000;}
+* {font-family: Helvetica, Arial, sans-serif; font-weight: 100; font-stretch: normal; color: #000000;}
 html {height: 100%;}
 body {background: #ffffff url(/img/bg_content.png) repeat-x 0 114px; margin: 0; height: 100%;}
 h1, h2, h3, h4, h5, h6, p, ul, li, dl, dd, dt, address {padding: 0; margin: 0; font-weight: normal;}
